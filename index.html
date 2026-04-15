@@ -3,103 +3,108 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Lex Recovery Global | Leading Crypto Asset Recovery Law Firm – UK SRA Regulated</title>
-  <meta name="description" content="Elite UK law firm recovering stolen crypto from illegitimate platforms, fraudulent exchanges, and investment schemes. Blockchain forensics, worldwide freezing orders, and cross-border litigation. SRA-regulated, contingency options.">
-  <meta name="keywords" content="crypto recovery law firm, asset recovery solicitors, freezing injunction cryptocurrency, blockchain forensics, Ponzi scheme recovery, UK crypto fraud lawyer">
+  <title>Lex Recovery Global | Crypto Asset Recovery – WhatsApp & Email Support</title>
+  <meta name="description" content="UK SRA-regulated law firm recovering stolen crypto from illegitimate platforms. Contact via WhatsApp or email for immediate case assessment.">
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; background: #fafcff; color: #111827; line-height: 1.5; scroll-behavior: smooth; }
-    .container { max-width: 1280px; margin: 0 auto; padding: 0 40px; }
+    .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
     
-    /* Top legal bar */
-    .legal-bar { background: #0f172a; color: #94a3b8; padding: 8px 40px; font-size: 0.75rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; border-bottom: 1px solid #1e293b; }
+    /* Top legal bar - mobile friendly */
+    .legal-bar { background: #0f172a; color: #94a3b8; padding: 8px 16px; font-size: 0.7rem; display: flex; flex-direction: column; gap: 8px; border-bottom: 1px solid #1e293b; text-align: center; }
+    @media (min-width: 768px) { .legal-bar { flex-direction: row; justify-content: space-between; padding: 8px 40px; } }
     .legal-bar a { color: #7fc1d0; text-decoration: none; }
-    .reg-badge { background: #1e293b; padding: 2px 12px; border-radius: 40px; font-size: 0.7rem; font-weight: 600; color: #cbd5e1; }
+    .reg-badge { background: #1e293b; padding: 2px 8px; border-radius: 40px; font-size: 0.65rem; font-weight: 600; color: #cbd5e1; display: inline-block; }
     
-    /* Translator */
-    .lang-container { background: #f1f5f9; padding: 10px 40px; display: flex; justify-content: flex-end; border-bottom: 1px solid #e2e8f0; }
+    /* Translator - mobile friendly */
+    .lang-container { background: #f1f5f9; padding: 8px 16px; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; border-bottom: 1px solid #e2e8f0; }
+    @media (min-width: 768px) { .lang-container { justify-content: flex-end; padding: 10px 40px; } }
     #google_translate_element { display: inline-block; }
+    .goog-te-gadget { font-family: 'Inter', sans-serif !important; }
     
-    /* Nav */
-    .navbar { background: white; position: sticky; top: 0; z-index: 100; box-shadow: 0 4px 12px rgba(0,0,0,0.02); border-bottom: 1px solid #eef2f6; }
-    .nav-container { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; flex-wrap: wrap; gap: 20px; }
-    .logo h1 { font-size: 1.9rem; font-weight: 800; background: linear-gradient(135deg, #0f172a, #1e3a5f); -webkit-background-clip: text; background-clip: text; color: transparent; letter-spacing: -0.02em; }
-    .logo span { font-size: 0.7rem; color: #475569; letter-spacing: 0.3px; display: block; }
-    .nav-links { display: flex; gap: 32px; align-items: center; flex-wrap: wrap; }
-    .nav-links a { text-decoration: none; font-weight: 500; color: #1e293b; transition: 0.2s; font-size: 0.95rem; }
-    .nav-links a:hover { color: #0f7b8c; }
-    .btn-outline { border: 1.5px solid #1e3a5f; padding: 8px 24px; border-radius: 40px; background: transparent; font-weight: 600; color: #1e3a5f; }
-    .btn-primary { background: #1e3a5f; color: white; padding: 12px 32px; border-radius: 40px; font-weight: 600; border: none; cursor: pointer; transition: 0.2s; font-size: 0.95rem; }
-    .btn-primary:hover { background: #0f2b4a; transform: translateY(-1px); }
+    /* Nav - mobile responsive */
+    .navbar { background: white; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    .nav-container { display: flex; flex-direction: column; align-items: center; padding: 16px; gap: 12px; }
+    @media (min-width: 768px) { .nav-container { flex-direction: row; justify-content: space-between; padding: 20px 40px; } }
+    .logo h1 { font-size: 1.5rem; font-weight: 800; background: linear-gradient(135deg, #0f172a, #1e3a5f); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .logo span { font-size: 0.65rem; color: #475569; display: block; text-align: center; }
+    .nav-links { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+    .nav-links a { text-decoration: none; font-weight: 500; color: #1e293b; font-size: 0.85rem; }
+    .btn-outline { border: 1.5px solid #1e3a5f; padding: 6px 16px; border-radius: 40px; font-weight: 600; font-size: 0.8rem; }
+    .btn-primary { background: #1e3a5f; color: white; padding: 10px 20px; border-radius: 40px; font-weight: 600; border: none; cursor: pointer; font-size: 0.9rem; }
     
-    /* Hero */
-    .hero { padding: 100px 0 80px; background: linear-gradient(120deg, #f8fafc 0%, #ffffff 100%); }
-    .hero-grid { display: flex; flex-wrap: wrap; gap: 60px; align-items: center; }
-    .hero-text { flex: 1.2; }
-    .hero-text h2 { font-size: 3.8rem; font-weight: 800; line-height: 1.2; letter-spacing: -0.02em; background: linear-gradient(135deg, #0f172a, #1e3a5f); -webkit-background-clip: text; background-clip: text; color: transparent; }
-    .hero-text p { font-size: 1.2rem; margin: 28px 0; color: #334155; }
-    .hero-stats { display: flex; gap: 48px; margin: 32px 0; }
-    .stat h3 { font-size: 2rem; font-weight: 800; color: #1e3a5f; }
-    .hero-image { flex: 0.8; background: #eef2ff; border-radius: 32px; padding: 48px 24px; text-align: center; }
-    .hero-image i { font-size: 4rem; margin: 0 12px; color: #1e3a5f; opacity: 0.8; }
+    /* Hero - mobile first */
+    .hero { padding: 50px 0 40px; background: linear-gradient(120deg, #f8fafc 0%, #ffffff 100%); }
+    .hero-grid { display: flex; flex-direction: column; gap: 32px; }
+    @media (min-width: 768px) { .hero-grid { flex-direction: row; gap: 60px; } .hero { padding: 100px 0 80px; } }
+    .hero-text h2 { font-size: 1.8rem; font-weight: 800; line-height: 1.2; }
+    @media (min-width: 768px) { .hero-text h2 { font-size: 3.2rem; } }
+    .hero-text p { font-size: 1rem; margin: 20px 0; color: #334155; }
+    .hero-stats { display: flex; gap: 24px; margin: 24px 0; flex-wrap: wrap; justify-content: center; }
+    .stat h3 { font-size: 1.5rem; color: #1e3a5f; }
+    .hero-image { background: #eef2ff; border-radius: 24px; padding: 30px 16px; text-align: center; }
+    .hero-image i { font-size: 2.5rem; margin: 0 6px; }
     
-    /* Section styles */
-    .section { padding: 80px 0; border-bottom: 1px solid #eef2f6; }
-    .section-title { font-size: 2.2rem; font-weight: 700; margin-bottom: 48px; letter-spacing: -0.01em; border-left: 5px solid #1e3a5f; padding-left: 24px; }
-    .grid-3col { display: flex; flex-wrap: wrap; gap: 32px; justify-content: space-between; }
-    .card { background: white; border-radius: 24px; padding: 32px; flex: 1; min-width: 260px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); border: 1px solid #eef2f6; transition: 0.2s; }
-    .card:hover { border-color: #cbd5e1; }
+    /* Sections */
+    .section { padding: 50px 0; border-bottom: 1px solid #eef2f6; }
+    @media (min-width: 768px) { .section { padding: 80px 0; } }
+    .section-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 32px; border-left: 4px solid #1e3a5f; padding-left: 16px; }
+    @media (min-width: 768px) { .section-title { font-size: 2rem; padding-left: 24px; } }
+    .grid-3col { display: flex; flex-direction: column; gap: 24px; }
+    @media (min-width: 768px) { .grid-3col { flex-direction: row; flex-wrap: wrap; gap: 32px; } }
+    .card { background: white; border-radius: 20px; padding: 24px; border: 1px solid #eef2f6; }
+    @media (min-width: 768px) { .card { flex: 1; min-width: 240px; padding: 32px; } }
     .legal-card { border-left: 4px solid #1e3a5f; }
-    .statutory-ref { background: #f8fafc; padding: 20px; border-radius: 20px; font-family: monospace; font-size: 0.85rem; margin-top: 16px; }
+    .case-study { background: #f8fafc; border-radius: 16px; padding: 20px; margin-bottom: 20px; border-left: 4px solid #1e3a5f; }
+    .badge-law { background: #e2e8f0; padding: 4px 10px; border-radius: 40px; font-size: 0.65rem; font-weight: 600; display: inline-block; margin-bottom: 10px; }
     
-    /* Case grid */
-    .case-study { background: #f8fafc; border-radius: 20px; padding: 24px; margin-bottom: 24px; border-left: 4px solid #1e3a5f; }
-    .badge-law { background: #e2e8f0; padding: 4px 12px; border-radius: 40px; font-size: 0.7rem; font-weight: 600; color: #1e293b; display: inline-block; margin-bottom: 12px; }
+    /* Contact Form */
+    .contact-form { background: white; border-radius: 24px; padding: 28px; border: 1px solid #eef2f6; max-width: 600px; margin: 0 auto; }
+    .form-group { margin-bottom: 20px; }
+    .form-group input, .form-group textarea { width: 100%; padding: 12px 16px; border: 1px solid #cbd5e1; border-radius: 12px; font-family: inherit; font-size: 0.9rem; }
+    .form-group textarea { resize: vertical; min-height: 100px; }
     
-    .faq-item { border-bottom: 1px solid #eef2f6; padding: 20px 0; cursor: pointer; }
-    .faq-question { font-weight: 700; font-size: 1.05rem; display: flex; justify-content: space-between; color: #0f172a; }
-    .faq-answer { display: none; margin-top: 12px; color: #475569; padding-left: 20px; line-height: 1.6; }
+    /* FAQ */
+    .faq-item { border-bottom: 1px solid #eef2f6; padding: 16px 0; cursor: pointer; }
+    .faq-question { font-weight: 700; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .faq-answer { display: none; margin-top: 12px; color: #475569; padding-left: 16px; }
     .faq-item.active .faq-answer { display: block; }
     
-    /* Chat */
-    .chat-widget { position: fixed; bottom: 28px; right: 28px; z-index: 1000; }
-    .chat-toggle { background: #1e3a5f; width: 60px; height: 60px; border-radius: 50%; color: white; font-size: 28px; border: none; cursor: pointer; box-shadow: 0 8px 24px rgba(0,0,0,0.15); }
-    .chat-box { background: white; width: 360px; border-radius: 24px; margin-bottom: 16px; display: none; flex-direction: column; border: 1px solid #e2e8f0; box-shadow: 0 20px 35px rgba(0,0,0,0.15); }
-    .chat-header { background: #1e3a5f; color: white; padding: 16px; border-radius: 24px 24px 0 0; display: flex; justify-content: space-between; }
-    .chat-messages { height: 300px; overflow-y: auto; padding: 16px; background: #ffffff; display: flex; flex-direction: column; gap: 8px; }
-    .message { padding: 10px 14px; border-radius: 20px; max-width: 85%; font-size: 0.85rem; }
-    .bot-msg { background: #f1f5f9; align-self: flex-start; color: #0f172a; }
-    .user-msg { background: #1e3a5f; color: white; align-self: flex-end; }
-    .chat-input-area { display: flex; border-top: 1px solid #eef2f6; }
-    .chat-input-area input { flex: 1; padding: 14px; border: none; outline: none; font-family: inherit; border-radius: 0 0 0 24px; }
-    .chat-input-area button { background: #1e3a5f; border: none; color: white; padding: 0 20px; border-radius: 0 0 24px 0; cursor: pointer; }
+    /* WhatsApp Button */
+    .whatsapp-live { position: fixed; bottom: 20px; right: 20px; z-index: 1000; background: #25D366; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.15); cursor: pointer; transition: 0.2s; text-decoration: none; }
+    @media (min-width: 768px) { .whatsapp-live { width: 60px; height: 60px; bottom: 28px; right: 28px; } }
+    .whatsapp-live:hover { transform: scale(1.05); background: #128C7E; }
+    .whatsapp-live i { font-size: 28px; color: white; }
+    .chat-prompt { position: fixed; bottom: 85px; right: 20px; background: white; padding: 6px 12px; border-radius: 20px; font-size: 0.7rem; font-weight: 600; color: #1e3a5f; border: 1px solid #e2e8f0; pointer-events: none; z-index: 999; }
+    @media (min-width: 768px) { .chat-prompt { bottom: 100px; right: 28px; padding: 8px 16px; font-size: 0.75rem; } }
     
-    footer { background: #0f172a; color: #cbd5e1; padding: 60px 0 30px; }
-    .footer-grid { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 48px; }
-    hr { margin: 40px 0 20px; border-color: #1e293b; }
-    @media (max-width: 780px) { .hero-text h2 { font-size: 2.4rem; } .container { padding: 0 24px; } .legal-bar { flex-direction: column; } }
+    footer { background: #0f172a; color: #cbd5e1; padding: 40px 0 20px; }
+    .footer-grid { display: flex; flex-direction: column; gap: 32px; text-align: center; }
+    @media (min-width: 768px) { .footer-grid { flex-direction: row; justify-content: space-between; text-align: left; gap: 40px; } }
+    hr { margin: 30px 0 20px; border-color: #1e293b; }
+    .contact-details { background: #1e293b; padding: 4px 12px; border-radius: 40px; display: inline-block; font-size: 0.75rem; }
   </style>
 </head>
 <body>
 
-<!-- Top legal & regulatory bar -->
 <div class="legal-bar">
-  <div><i class="fas fa-balance-scale"></i> SRA Authorised Body No. 638291 | COLP: Sarah K. Matthews | COFA: Jonathan Pierce</div>
-  <div><i class="fas fa-file-contract"></i> Regulated by the Solicitors Regulation Authority | <a href="#">Legal Ombudsman</a></div>
+  <div><i class="fas fa-balance-scale"></i> SRA Authorised No. 638291 | COLP: Sarah Matthews</div>
+  <div><i class="fas fa-file-contract"></i> Regulated by SRA | <a href="#">Legal Ombudsman</a></div>
   <div><span class="reg-badge"><i class="fas fa-lock"></i> AML supervised | HMRC MLR 2022</span></div>
 </div>
 <div class="lang-container">
-  <i class="fas fa-globe-europe" style="margin-right: 8px; color:#1e3a5f;"></i> Translate website: <div id="google_translate_element" style="display: inline-block; margin-left: 12px;"></div>
+  <i class="fas fa-globe-europe" style="margin-right: 6px; color:#1e3a5f;"></i> Translate: 
+  <div id="google_translate_element" style="display: inline-block;"></div>
 </div>
 
 <nav class="navbar">
   <div class="nav-container">
     <div class="logo"><h1>LEX RECOVERY <i class="fab fa-bitcoin"></i></h1><span>Crypto Asset Recovery | Global Enforcement</span></div>
     <div class="nav-links">
-      <a href="#">Home</a><a href="#legal-framework">Legal Framework</a><a href="#process">Process</a><a href="#cases">Precedents</a><a href="#faq">FAQs</a>
-      <a href="#" class="btn-outline">Client Portal (secure)</a>
+      <a href="#">Home</a><a href="#legal-framework">Legal</a><a href="#process">Process</a><a href="#contact">Contact</a><a href="#faq">FAQs</a>
+      <a href="#" class="btn-outline">Client Portal</a>
     </div>
   </div>
 </nav>
@@ -107,112 +112,118 @@
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-text">
-      <h2>Institutional-grade crypto asset recovery from illegitimate platforms</h2>
-      <p>Lex Recovery Global is a specialist UK law firm recovering stolen digital assets from fraudulent exchanges, Ponzi schemes, and unregulated investment platforms. We combine blockchain forensics, worldwide freezing injunctions, and cross-border litigation.</p>
-      <button class="btn-primary" id="consultBtn"><i class="fas fa-gavel"></i> Confidential case assessment</button>
-      <div class="hero-stats"><div class="stat"><h3>$470M+</h3><p>Assets traced</p></div><div class="stat"><h3>£210M+</h3><p>Judgments obtained</p></div><div class="stat"><h3>89%</h3><p>Success rate (accepted cases)</p></div></div>
+      <h2>Recover stolen crypto from illegitimate platforms</h2>
+      <p>Specialist UK law firm recovering digital assets from fraudulent exchanges, Ponzi schemes, and unregulated platforms. Blockchain forensics + worldwide freezing orders.</p>
+      <button class="btn-primary" id="consultBtn"><i class="fab fa-whatsapp"></i> WhatsApp live support →</button>
+      <div class="hero-stats">
+        <div class="stat"><h3>$470M+</h3><p>Assets traced</p></div>
+        <div class="stat"><h3>89%</h3><p>success rate</p></div>
+        <div class="stat"><h3>14</h3><p>jurisdictions</p></div>
+      </div>
     </div>
-    <div class="hero-image"><i class="fab fa-bitcoin"></i><i class="fas fa-chart-line"></i><i class="fas fa-handcuffs"></i><p style="margin-top: 20px;">On-chain forensics + High Court injunctions</p></div>
+    <div class="hero-image">
+      <i class="fab fa-bitcoin"></i><i class="fas fa-chart-line"></i><i class="fas fa-handcuffs"></i>
+      <p style="margin-top: 12px; font-size: 0.85rem;">On-chain forensics + High Court injunctions</p>
+    </div>
   </div>
 </section>
 
-<!-- Legal Framework Section (high detail) -->
 <section class="section" id="legal-framework">
   <div class="container">
     <h2 class="section-title">Legal framework & enforcement toolkit</h2>
     <div class="grid-3col">
-      <div class="card legal-card"><i class="fas fa-gavel" style="font-size: 2rem;"></i><h3>Worldwide Freezing Orders</h3><p>Under s.37 Senior Courts Act 1981 & CPR 25.1(1)(f). We obtain injunctions against crypto exchanges and banks holding fraud proceeds across UK, BVI, Singapore, Switzerland, and Cayman.</p><div class="statutory-ref">Key precedent: <strong>AA v Persons Unknown [2019] EWHC 3556 (Comm)</strong> — Bitcoin as property, freezing orders granted.</div></div>
-      <div class="card legal-card"><i class="fas fa-chart-line"></i><h3>Blockchain Forensics</h3><p>Full traceability using Chainalysis, Elliptic, and proprietary ML tools. We produce court-admissible tracing reports compliant with CPR Part 35 expert evidence.</p><div class="statutory-ref">Bankers Trust orders & Norwich Pharmacal relief against exchanges.</div></div>
-      <div class="card legal-card"><i class="fas fa-pound-sign"></i><h3>Proceeds of Crime Act (POCA)</h3><p>Civil recovery under Part 5 POCA 2002. Also restraint orders and enforcement against tainted assets held by third parties.</p><div class="statutory-ref">MLR 2017 compliance — we file SARs when required.</div></div>
-    </div>
-    <div style="margin-top: 40px; background: #f1f5f9; border-radius: 20px; padding: 28px;">
-      <i class="fas fa-balance-scale"></i> <strong>Regulatory status:</strong> Lex Recovery Global is authorised and regulated by the Solicitors Regulation Authority (SRA). We operate under the SRA Code of Conduct and maintain professional indemnity insurance in line with minimum terms. Our COLP and COFA ensure full compliance with anti-money laundering regulations (The Money Laundering, Terrorist Financing and Transfer of Funds Regulations 2017).
+      <div class="card legal-card"><i class="fas fa-gavel" style="font-size: 1.8rem;"></i><h3>Worldwide Freezing Orders</h3><p>Under s.37 Senior Courts Act 1981 & CPR 25.1. Precedent: AA v Persons Unknown [2019].</p></div>
+      <div class="card legal-card"><i class="fas fa-chart-line"></i><h3>Blockchain Forensics</h3><p>Chainalysis, Elliptic, court-admissible tracing reports under CPR Part 35.</p></div>
+      <div class="card legal-card"><i class="fas fa-pound-sign"></i><h3>Proceeds of Crime Act</h3><p>Civil recovery under Part 5 POCA 2002. Restraint orders and asset forfeiture.</p></div>
     </div>
   </div>
 </section>
 
-<!-- Recovery Process -->
 <section class="section" id="process">
   <div class="container">
     <h2 class="section-title">Forensic & legal recovery process</h2>
     <div class="grid-3col">
-      <div class="card"><div style="background:#1e3a5f; color:white; width:40px; height:40px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:20px;">1</div><h3>Initial triage & LPA</h3><p>We execute a Limited Purpose Agreement, then conduct an initial blockchain triage to assess traceability and jurisdiction. <strong>Fee: £750+VAT</strong> (credited against contingency if case accepted).</p></div>
-      <div class="card"><div style="background:#1e3a5f; color:white; width:40px; height:40px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:20px;">2</div><h3>Full forensic tracing</h3><p>Court-admissible report following the <em>Ion Science v Persons Unknown</em> standards. Identifies wallets, exchanges, and ultimate beneficiary.</p></div>
-      <div class="card"><div style="background:#1e3a5f; color:white; width:40px; height:40px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:20px;">3</div><h3>Urgent injunctions</h3><p>Without-notice freezing orders (WFOs) against exchanges/banks. Proprietary injunctions over stolen assets. Return date hearings.</p></div>
-      <div class="card"><div style="background:#1e3a5f; color:white; width:40px; height:40px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:20px;">4</div><h3>Enforcement & repatriation</h3><p>Enforcement of judgments through reciprocal arrangements (Brussels Recast, Lugano, common law). Asset repatriation to client wallet.</p></div>
+      <div class="card"><div style="background:#1e3a5f; color:white; width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:16px;">1</div><h3>Initial triage</h3><p>Blockchain triage to assess traceability. Fee: £750+VAT (credited if case accepted).</p></div>
+      <div class="card"><div style="background:#1e3a5f; color:white; width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:16px;">2</div><h3>Full forensic tracing</h3><p>Court-admissible report identifying wallets, exchanges, and beneficiary.</p></div>
+      <div class="card"><div style="background:#1e3a5f; color:white; width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:16px;">3</div><h3>Urgent injunctions</h3><p>Without-notice freezing orders against exchanges/banks.</p></div>
+      <div class="card"><div style="background:#1e3a5f; color:white; width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:16px;">4</div><h3>Repatriation</h3><p>Enforcement of judgments, asset return to client wallet.</p></div>
     </div>
   </div>
 </section>
 
-<!-- Case Precedents (realistic legal anonymised) -->
-<section class="section" id="cases" style="background:#fafcff;">
+<section class="section" id="contact">
   <div class="container">
-    <h2 class="section-title">Selected recovery precedents</h2>
-    <div class="case-study"><span class="badge-law">High Court claim BL-2023-00142</span><h3>£4.2M recovered from fake "staking" platform</h3><p>Blockchain tracing led to two Binance accounts. Worldwide freezing order granted ex parte. Settlement including costs and interest achieved within 8 months.</p></div>
-    <div class="case-study"><span class="badge-law">BVI Commercial Court</span><h3>$7.1M Ponzi scheme (crypto/fx hybrid)</h3><p>Urgent proprietary injunction against Seychelles-registered exchange. Contempt proceedings led to disclosure and return of 83% of client assets.</p></div>
-    <div class="case-study"><span class="badge-law">Singapore International Commercial Court</span><h3>Recovery of 214 BTC from fraudulent mining contract</h3><p>Coordinated freezing order in Singapore and Switzerland. Assets repatriated within 5 months. Contingency fee applied (18%).</p></div>
-  </div>
-</section>
-
-<!-- Global enforcement offices -->
-<section class="section">
-  <div class="container">
-    <h2 class="section-title">Global enforcement footprint</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
-      <span class="badge-law" style="background:#1e3a5f; color:white;"><i class="fas fa-city"></i> London (HQ)</span>
-      <span class="badge-law" style="background:#1e3a5f; color:white;"><i class="fas fa-euro-sign"></i> Zug (Switzerland)</span>
-      <span class="badge-law" style="background:#1e3a5f; color:white;"><i class="fas fa-building"></i> Singapore</span>
-      <span class="badge-law" style="background:#1e3a5f; color:white;"><i class="fas fa-dollar-sign"></i> New York (correspondent)</span>
-      <span class="badge-law" style="background:#1e3a5f; color:white;"><i class="fas fa-charging-station"></i> Dubai (DIFC)</span>
-      <span class="badge-law" style="background:#1e3a5f; color:white;"><i class="fas fa-ship"></i> British Virgin Islands</span>
+    <h2 class="section-title">Contact us – 24/7 support</h2>
+    <div class="grid-3col" style="gap: 40px;">
+      <div class="card" style="text-align: center;">
+        <i class="fab fa-whatsapp" style="font-size: 2.5rem; color:#25D366;"></i>
+        <h3>WhatsApp Live</h3>
+        <p>Fastest response: <strong>+44 7950 320055</strong></p>
+        <button class="btn-primary" id="whatsappBtn" style="background:#25D366; margin-top: 16px;"><i class="fab fa-whatsapp"></i> Message now</button>
+      </div>
+      <div class="card" style="text-align: center;">
+        <i class="fas fa-envelope" style="font-size: 2.5rem; color:#1e3a5f;"></i>
+        <h3>Email Support</h3>
+        <p><strong>Cryptolexrecovery@outlook.com</strong></p>
+        <button class="btn-primary" id="emailBtn" style="background:#1e3a5f; margin-top: 16px;"><i class="fas fa-envelope"></i> Send email</button>
+      </div>
     </div>
-    <p style="text-align:center; margin-top: 32px;">We also maintain counsel relationships in Germany, France, Netherlands, and Cyprus for European enforcement.</p>
+    
+    <!-- Contact Form (falls back to email) -->
+    <div class="contact-form" style="margin-top: 40px;">
+      <h3 style="margin-bottom: 20px;">Send a message directly</h3>
+      <form id="contactForm" action="mailto:Cryptolexrecovery@outlook.com" method="post" enctype="text/plain">
+        <div class="form-group"><input type="text" name="name" placeholder="Your name" required></div>
+        <div class="form-group"><input type="email" name="email" placeholder="Your email" required></div>
+        <div class="form-group"><input type="text" name="platform" placeholder="Platform name (e.g., fake exchange)"></div>
+        <div class="form-group"><textarea name="message" placeholder="Describe your case: amount lost, transaction hash, timeline..." required></textarea></div>
+        <button type="submit" class="btn-primary" style="width: 100%;"><i class="fas fa-paper-plane"></i> Send message</button>
+      </form>
+      <p style="font-size: 0.7rem; text-align: center; margin-top: 16px; color: #64748b;">Your message will be sent directly to Cryptolexrecovery@outlook.com</p>
+    </div>
   </div>
 </section>
 
-<!-- FAQ (legal heavy) -->
 <section class="section" id="faq">
   <div class="container">
-    <h2 class="section-title">Legal & procedural FAQs</h2>
-    <div class="faq-item"><div class="faq-question">What legal basis allows recovery of crypto from illegitimate platforms? <i class="fas fa-chevron-down"></i></div><div class="faq-answer">English courts have recognised cryptocurrency as property (AA v Persons Unknown [2019], Ion Science v Persons Unknown [2020]). We use proprietary claims, unjust enrichment, and constructive trust arguments.</div></div>
-    <div class="faq-item"><div class="faq-question">What are the costs and funding options? <i class="fas fa-chevron-down"></i></div><div class="faq-answer">Initial assessment: £750+VAT. Thereafter, clients choose: (a) hourly rates £450-£650+VAT, or (b) contingency fee agreement (15-20% of recovered sum, only for meritorious fraud cases). Disbursements (court fees, expert reports) are separate.</div></div>
-    <div class="faq-item"><div class="faq-question">How do you enforce against offshore exchanges? <i class="fas fa-chevron-down"></i></div><div class="faq-answer">We obtain worldwide freezing orders from the English High Court, which can be recognised and enforced in many offshore jurisdictions (BVI, Cayman, Singapore) under common law principles or reciprocal arrangements.</div></div>
-    <div class="faq-item"><div class="faq-question">What information do I need to start a case? <i class="fas fa-chevron-down"></i></div><div class="faq-answer">Transaction hash(es), wallet addresses, platform name/URL, screenshots of communications, and approximate amount lost. The more on-chain data, the faster we can trace.</div></div>
+    <h2 class="section-title">Legal FAQs</h2>
+    <div class="faq-item"><div class="faq-question">What legal basis allows crypto recovery? <i class="fas fa-chevron-down"></i></div><div class="faq-answer">English courts recognise crypto as property (AA v Persons Unknown). We use proprietary claims and constructive trust arguments.</div></div>
+    <div class="faq-item"><div class="faq-question">What are the costs? <i class="fas fa-chevron-down"></i></div><div class="faq-answer">Initial assessment £750+VAT. Hourly £450-£650+VAT, or contingency 15-20% for meritorious fraud cases.</div></div>
+    <div class="faq-item"><div class="faq-question">How to start a case? <i class="fas fa-chevron-down"></i></div><div class="faq-answer">Click WhatsApp button or use the contact form. Send: platform name, transaction hash, approximate loss. We reply within 2 hours.</div></div>
+    <div class="faq-item"><div class="faq-question">Can you recover from any exchange? <i class="fas fa-chevron-down"></i></div><div class="faq-answer">We have success with Binance, Coinbase, Kraken, and many offshore exchanges. Freezing orders work globally.</div></div>
   </div>
-</section>
-
-<section style="background:#0f172a; color:white; text-align:center; padding: 70px 0;">
-  <div class="container"><h2 style="color:white; font-weight: 700;">Confidential, no-obligation assessment</h2><p style="margin: 20px auto; max-width: 600px;">Our legal and forensic team will evaluate your case within 48 hours. If traceable assets exist and a legitimate claim can be made, we propose a clear funding structure.</p><button class="btn-primary" id="consultBtn2" style="background:#f0a34b; color:#0f172a;">Request free case review →</button></div>
 </section>
 
 <footer>
   <div class="container footer-grid">
-    <div><h3 style="color:white;">Lex Recovery Global</h3><p>Authorised and regulated by the Solicitors Regulation Authority (SRA No. 638291).</p><p>VAT: GB 392 5512 89 | AML registration: HMRC XFML0000012345</p></div>
-    <div><h4>Contact</h4><p>66 Bishopsgate, London EC2N 4AX<br>+44 7950 320055<br>cryptolexrecovery@outlook.com</p><p>Emergency out-of-hours: +44 7950 320055</p></div>
-    <div><h4>Regulatory</h4><p><a href="#" style="color:#7fc1d0;">Complaints procedure</a> | <a href="#" style="color:#7fc1d0;">Legal Ombudsman</a><br>SRA transparency rules complied with. Full pricing and VAT disclosure available.</p></div>
+    <div><h3 style="color:white;">Lex Recovery Global</h3><p>SRA No. 638291 | VAT: GB 392 5512 89</p><p>66 Bishopsgate, London EC2N 4AX</p></div>
+    <div><h4>Contact</h4><p><i class="fab fa-whatsapp"></i> +44 7950 320055<br><i class="fas fa-envelope"></i> Cryptolexrecovery@outlook.com</p></div>
+    <div><h4>Regulatory</h4><p><a href="#" style="color:#7fc1d0;">Complaints procedure</a> | <a href="#" style="color:#7fc1d0;">Legal Ombudsman</a></p></div>
   </div>
-  <hr><p style="text-align:center; font-size:0.7rem;">© 2026 Lex Recovery Global. This website provides general information and does not constitute legal advice. Past results do not guarantee future outcomes. Recovery depends on jurisdiction, cooperation of third parties, and court discretion.</p>
+  <hr><p style="text-align:center; font-size:0.65rem;">©️ 2026 Lex Recovery Global. This is not legal advice. Past results do not guarantee future outcomes.</p>
 </footer>
 
-<div class="chat-widget">
-  <div class="chat-box" id="chatBox"><div class="chat-header"><span><i class="fas fa-scale-balanced"></i> Legal intake desk</span><button id="closeChat" style="background:none; border:none; color:white; font-size:20px;">&times;</button></div><div class="chat-messages" id="chatMessages"><div class="message bot-msg">⚖️ We specialise in legal recovery from illegitimate crypto platforms. Share: (1) platform name, (2) approximate loss, (3) date — we'll assess legal viability.</div></div><div class="chat-input-area"><input type="text" id="chatInput" placeholder="e.g., 'Lost 12 ETH on Bitscape...'"><button id="sendChatBtn"><i class="fas fa-paper-plane"></i></button></div></div>
-  <button class="chat-toggle" id="chatToggleBtn"><i class="fas fa-headset"></i></button>
-</div>
+<div class="chat-prompt" id="chatPrompt">💬 Live support on WhatsApp</div>
+<a href="https://wa.me/447950320055?text=Hello%20Lex%20Recovery%2C%20I%20need%20help%20recovering%20crypto%20from%20an%20illegitimate%20platform.%20Please%20assist." id="whatsappButton" class="whatsapp-live" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
 
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script>
   function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'en,fr,de,it,es,nl,pl,pt,sv,da,fi,el,cs,hu,ro', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element'); }
+  
+  // FAQ accordion
   document.querySelectorAll('.faq-item').forEach(item => { item.addEventListener('click', () => item.classList.toggle('active')); });
-  const chatBox = document.getElementById('chatBox'), toggle = document.getElementById('chatToggleBtn'), close = document.getElementById('closeChat'), msgDiv = document.getElementById('chatMessages'), input = document.getElementById('chatInput'), send = document.getElementById('sendChatBtn');
-  chatBox.style.display = 'none';
-  toggle.onclick = () => chatBox.style.display = chatBox.style.display === 'none' ? 'flex' : 'none';
-  close.onclick = () => chatBox.style.display = 'none';
-  function addMsg(t, s) { let m = document.createElement('div'); m.className = 'message ' + (s === 'user' ? 'user-msg' : 'bot-msg'); m.innerText = t; msgDiv.appendChild(m); msgDiv.scrollTop = msgDiv.scrollHeight; }
-  function botReply(m) { let l = m.toLowerCase(); if(l.includes('fee')||l.includes('cost')) return 'Initial triage £750+VAT. Contingency 15-20% for meritorious fraud cases. Hourly rates £450-£650+VAT. Disbursements extra.'; if(l.includes('freeze')) return 'We obtain worldwide freezing orders under s.37 Senior Courts Act 1981. Precedent: AA v Persons Unknown. Costs from £7,500 + court fees.'; if(l.includes('success')) return 'Our success rate for accepted cases is 89%. Free case review determines legal merit and traceability.'; if(l.includes('legal')||l.includes('law')) return 'We are SRA-regulated solicitors. Our toolkit includes proprietary claims, unjust enrichment, Norwich Pharmacal orders, and contempt proceedings.'; return 'We require transaction hash, platform name, and approximate loss. If assets are traceable, we propose a legal strategy. Share your details for a confidential assessment.'; }
-  send.onclick = () => { let t = input.value.trim(); if(!t) return; addMsg(t,'user'); input.value=''; setTimeout(()=>addMsg(botReply(t),'bot'),400); };
-  input.addEventListener('keypress', e => { if(e.key === 'Enter') send.onclick(); });
-  document.getElementById('consultBtn').onclick = () => alert('📩 A solicitor will contact you within 24 hours. For urgent freezing orders, call our 24h line: +44 7700 123456.');
-  document.getElementById('consultBtn2').onclick = () => alert('📩 Free assessment request received. We will reply within 12 business hours with a preliminary legal opinion.');
+  
+  // WhatsApp buttons
+  document.getElementById('consultBtn').addEventListener('click', () => window.open('https://wa.me/447950320055?text=Hello%20Lex%20Recovery%2C%20I%20need%20a%20free%20case%20assessment%20for%20crypto%20recovery.', '_blank'));
+  document.getElementById('whatsappBtn').addEventListener('click', () => window.open('https://wa.me/447950320055', '_blank'));
+  
+  // Email button
+  document.getElementById('emailBtn').addEventListener('click', () => window.location.href = 'mailto:Cryptolexrecovery@outlook.com');
+  
+  // Hide prompt after 5 seconds
+  setTimeout(() => { let p = document.getElementById('chatPrompt'); if(p) p.style.opacity = '0'; setTimeout(() => { if(p) p.style.display = 'none'; }, 1000); }, 5000);
 </script>
 </body>
 </html>
